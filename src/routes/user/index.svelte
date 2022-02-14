@@ -1,4 +1,4 @@
-<script context="module" lang="ts">
+<script context="module">
     export async function load({fetch}) {
         const response = await fetch('/.auth/me');
 
@@ -11,8 +11,8 @@
     }
 </script>
 
-<script lang="ts">
-    export let json: any;
+<script>
+    export let json;
 </script>
 <h1>Auth Me response</h1>
 <pre>
